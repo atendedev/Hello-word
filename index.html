@@ -4,11 +4,42 @@
     <title>Entendendo o Git!</title>
   </head>
   <body>
-    <p>Comandos do Git</p>
+    <p>Estes são comandos Git comuns usados ​​em várias situações:
+Histórico de revisões:
+   bisect	Use a pesquisa binária para encontrar o commit que introduziu um bug
+   diff		Mostra alterações entre confirmações, confirmação e árvore de trabalho, etc.
+   grep		Imprime linhas correspondentes a um padrão
+   log		Mostrar logs de confirmação
+   show		Mostra vários tipos de objetos
+   status	Mostrar o status da árvore de trabalho
+
+Manutenção
+   branch	Listar, criar ou excluir ramificações
+   commit	confirmar as alterações no repositório
+   merge	Junte-se a dois ou mais históricos de desenvolvimento
+   rebase	Reaplicar confirma em cima de outra dica de base
+   reset	Redefine o HEAD atual para o estado especificado
+   switch	Switch branches
+   tag		Criar, listar, excluir ou verificar um objeto de tag assinado com o GPG
+
+colaborar (fluxo de trabalho)
+   fetch	Objetos de download e referências de outro repositório
+   pull		Fetch e integre-se a outro repositório ou filial local
+   push		Atualizar referências remotas junto com objetos associados
+
+'git help -a' 
+'git help -g' listam os subcomandos disponíveis e alguns
+guias de conceito. Consulte 'git help <comando>' ou 'git help <concept>'
+
+para ler sobre um subcomando ou conceito específico.
+Veja 'git help git' para uma visão geral do sistema.</p>
     <ul>
 	<li>init</li>	
+	<p>Crie um repositório Git vazio ou reinicialize um existente</p>    
 	<li>clone</li>	
-	<li>add</li>	
+	<p>Clona um repositório em um novo diretório>
+	<li>add</li>
+		<p>Adicionar conteúdo do arquivo ao índice</p>
 	<li>commit</li>	
 	<li>push</li>	
 	<li>pull</li>	
